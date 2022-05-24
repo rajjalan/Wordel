@@ -25,7 +25,6 @@ def random_gen():
     text=file.read()
     words=list(map(str,text.split()))
     random_word=random.choice(words)
-    print(random_word)
     return random_word
     
 
